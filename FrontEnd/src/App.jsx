@@ -1,12 +1,15 @@
 
-import './App.css'
+// import './App.css'
+import Navbar from './landing_page/Navbar'
+import HomePage from './landing_page/home/HomePage'
 
 function App() {
   
 
   return (
     <>
-      <h1>Hello</h1>
+      <Navbar/>
+      <HomePage />
     </>
   )
 }

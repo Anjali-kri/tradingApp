@@ -1,9 +1,15 @@
-import React from 'react'
+import * as React from 'react';
+import AppBar from '@mui/material/AppBar';
+import Box from '@mui/material/Box';
 
-const Navbar = () => {
+
+
+
+export default function Navbar() {
+  
   return (
-    <div>Navbar</div>
-  )
+    <Box sx={{ flexGrow: 1 }}>
+      
+    </Box>
+  );
 }
-
-export default Navbar;
